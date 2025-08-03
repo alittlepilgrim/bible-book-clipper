@@ -54,7 +54,7 @@ You can run the script via Script Editor or save it as an application for easier
 	1.	Launch the script.
 	2.	It will open the first chapter in Safari.
 	3.	Wait until you hear your recorded “Next” cue.
-	4.	Say your voice command (e.g., “Next”) to trigger Shift + Option + O using macOS Voice Control or another tool.
+	4.	This voice command (e.g., “Next”) will trigger Shift + Option + O using macOS Voice Control or another tool which will trigger the Obsidian Webclipper.
 	5.	Repeat for each chapter.
 
 ⸻
