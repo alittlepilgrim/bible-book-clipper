@@ -1,0 +1,53 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "USCCB Bible",
+	"behavior": "create",
+	"noteContentFormat": "# {{title|title}}\n\n{{content}}\n\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": " {{title|title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{title|split:\\\", \\\"|first|lower}}-{{title|split:\\\", \\\"|slice:1|lower}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "bible/{{title|split:\\\", \\\"|first|lower}}",
+			"type": "multitext"
+		},
+		{
+			"name": "creation date",
+			"value": "{{date|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "modification date",
+			"value": "{{date|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "graph",
+			"value": "true",
+			"type": "checkbox"
+		},
+		{
+			"name": "publish",
+			"value": "true",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://bible.usccb.org/"
+	],
+	"noteNameFormat": " {{title|lower}}",
+	"path": ""
+}
