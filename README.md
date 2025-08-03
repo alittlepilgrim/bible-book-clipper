@@ -8,7 +8,7 @@ This AppleScript automates the process of navigating through Bible chapters on t
 - Navigates through all chapters sequentially
 - Refocuses Safari and clicks the page to ensure keyboard input
 - Plays a custom voice cue (e.g., you saying "Next") when the page is ready
-- You use your voice (or a manual trigger) to activate the Obsidian Web Clipper shortcut
+- The voice cue (or a manual trigger) will activate the Obsidian Web Clipper shortcut
 
 ---
 
